@@ -1,0 +1,33 @@
+# Predictive Maintenance ML Project
+
+## Objective
+This project predicts machine failures and identifies their root causes using machine condition data.  
+It is tied to my **Production & Industrial Engineering coursework**, focusing on reliability, quality control, and process optimization.
+
+## Methodology
+- Dataset: AI4I Predictive Maintenance dataset
+- Features: Air temperature, Process temperature, Rotational speed, Torque, Tool wear
+- Models: Random Forest Classifier
+- Steps:
+  1. Binary failure prediction
+  2. Failure type classification (TWF, HDF, PWF, OSF, RNF)
+  3. Feature importance analysis
+  4. Visualization (heatmap of features vs. failure types)
+
+## Results
+- Tool wear is the dominant driver of Tool Wear Failures (TWF).
+- Process temperature strongly influences Heat Dissipation Failures (HDF).
+- Torque and speed anomalies cause Power Failures (PWF).
+- Torque spikes lead to Overstrain Failures (OSF).
+- Random Failures (RNF) show no clear driver.
+
+## Tech Stack
+- Python (pandas, scikit-learn, seaborn, matplotlib)
+- Jupyter Notebook
+
+## 🎯 Course Tie-in
+This project connects **Machine Learning** with **Production & Industrial Engineering** concepts like:
+- Reliability engineering
+- Quality control
+- Preventive maintenance
+- Process optimization
